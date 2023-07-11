@@ -1,0 +1,100 @@
+/* style.css */
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  background-color: #f6f6f6;
+}
+
+.navbar a {
+  color: #686868;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar a.active {
+  color: #ff79aa;
+}
+.navbar a:hover {
+  color: #ff79aa;
+}
+
+.main {
+  padding: 40px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+#hero {
+  background-color: #ff79aa;
+  color: #ffffff;
+  padding: 50px 0;
+  text-align: center;
+  border-radius: 15px;
+}
+
+#hero .cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #ff79aa;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+#about,
+#contact {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#projects {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+#contact .cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff79aa;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+footer {
+  background-color: #f6f6f6;
+  color: #686868;
+  text-align: center;
+  padding: 20px 0;
+}
